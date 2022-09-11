@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  background-color: rgb(93, 144, 5);
+}
+
+.main_div{
+  background-color: white;
+  height: 450px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 25px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.strip{
+  background-color: rgb(11, 11, 142);
+  position: relative;
+  top: 30%;
+  height: 80px;
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  position: relative;
+  left: 47%;
+  top: 10%;
+}
+
+.increment{
+  background-color: rgb(11, 11, 142);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid rgb(11, 11, 142);
+  border-radius: 25px;
+  position: relative;
+  top: 40%;
+  left: 10%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.increment:hover{
+  background-color: rgb(46, 46, 205);
+}
+
+.decrement{
+  background-color: rgb(11, 11, 142);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid rgb(11, 11, 142);
+  border-radius: 25px;
+  position: relative;
+  top: 40%;
+  left: 32%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.decrement:hover{
+  background-color: rgb(46, 46, 205);
+}
